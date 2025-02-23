@@ -13,18 +13,15 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div class="m-5">
-            <h1 class="text-5xl font-bold mb-4">Build Your Next SaaS Faster</h1>
+            <h1 class="text-5xl font-bold mb-4">Le site pour connecter Youtubers et Miniamakers</h1>
             <p class="text-gray-700 text-lg mb-8">
-              With SupaNuxt SaaS, you can easily get started building your next
-              web application. Our pre-configured tech stack and industry
-              leading features make it easy to get up and running in no time.
-              Look! this guy is working so fast, his hands are just a blur.. you
-              could be this fast.
+              Avec Minube, vous pouvez facilement trouver un miniamaker fiable et compétent pour réaliser vos vidéos, et
+              ainsi pleinement vous concentrer sur ce que vous savez faire de mieux:  le contenu.
             </p>
             <NuxtLink
               to="/signup"
               class="inline-block py-3 px-6 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-              >Get Started</NuxtLink
+              >Commencer</NuxtLink
             >
           </div>
           <div>
@@ -40,7 +37,7 @@
       <div class="container px-4 mx-auto">
         <div
           class="flex flex-col md:flex-row items-center justify-center md:justify-between mb-8">
-          <h2 class="text-3xl font-bold mb-4 md:mb-0">Tech Stack</h2>
+          <h2 class="text-3xl font-bold mb-4 md:mb-0">Ce site a été construit avec:</h2>
         </div>
         <div class="flex flex-col md:flex-row items-center mb-16">
           <div class="md:w-full">
@@ -120,7 +117,7 @@
         </div>
         <div
           class="flex flex-col md:flex-row items-center justify-center md:justify-between mb-8">
-          <h2 class="text-3xl font-bold mb-4 md:mb-0">Features</h2>
+          <h2 class="text-3xl font-bold mb-4 md:mb-0">Ce que vous aurez</h2>
         </div>
         <!-- User Management (text left) -->
         <div class="flex flex-col md:flex-row-reverse items-center mb-16">
@@ -131,15 +128,12 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:ml-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">User Management</h3>
+            <h3 class="text-xl font-bold mb-4">Recherche de Miniamaker</h3>
             <p class="mb-4">
-              SupaNuxt SaaS includes robust user management features, including
-              authentication with social login (oauth) or email/password,
-              management of user roles and permissions, and multi-user/team
-              accounts that permit multiple users to share plan features
-              including a team administration facility and user roles within
-              team. This is a great feature for businesses or community groups
-              who want to share the cost of the plan.
+              Minube vous permet, grâce à des options de filtrage avancées, de trouver
+              le miniamaker qui correspond le mieux à vos besoins. Au lieu de rechercher
+              sur 20 discords différents, vous pouvez tous les trouver sur un seul site et
+              voir en un seul coup d'oeil si il correspond à vos critères.
             </p>
           </div>
         </div>
@@ -152,15 +146,12 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">DB Schema Management</h3>
+            <h3 class="text-xl font-bold mb-4">Paiement sécurisé</h3>
             <p class="mb-4">
-              We use Prisma for schema management to make sure you can easily
-              manage and keep track of your database schema. We also utilise
-              Prisma based strong types which, with some help from TRPC,
-              penetrate the entire stack all the way to the web front end. This
-              ensures that you can move fast with your feature development,
-              alter schema and have those type changes instantly available and
-              validated everywhere.
+              Nous utilisons Stripe comme moyen de paiement, ce qui vous garantit une
+              sécurité maximale lors de vos transactions. Stripe est notamment utilisé par la SNCF, Deliveroo, ou encore
+              Booking.com. Vous pouvez donc être sûr que vos données sont en sécurité. 
+              De plus, en cas de soucis avec le miniamaker (commande non faite, pas dans les délais...), vous pouvez demander un remboursement.
             </p>
           </div>
         </div>
@@ -173,10 +164,11 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:ml-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">Config and Environment</h3>
+            <h3 class="text-xl font-bold mb-4">Trouver un client</h3>
             <p class="mb-4">
-              SupaNuxt SaaS includes an approach to config and environment
-              management that enables customisation and management of api keys.
+              En tant que miniamaker débutant, il est souvent très difficile de trouver des clients. Minube vous permet de
+              vous inscrire en tant que miniamaker, et de commencer à travailler dès maintenant. Vous pouvez fixer vos propres
+              tarifs, et les clients intéressés pourront vous contacter directement. Plus besoin de passer par 40 discords différents
             </p>
           </div>
         </div>
@@ -189,13 +181,11 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">State Management</h3>
+            <h3 class="text-xl font-bold mb-4">Portefolio unique</h3>
             <p class="mb-4">
-              SupaNuxt SaaS includes multi modal state management that supports
-              both Single Page Application (SPA) pages such as dashboards and
-              Server Side Rendered (SSR) style pages for public content that are
-              crawlable by Search engines like google and facilitate excellent
-              Search Engine Optimisation (SEO).
+              Minube vous offre la possibilité de créer un portefolio unique, qui vous permettra de vous démarquer des autres miniamakers.
+              Vous pourrez y mettre en avant vos compétences, vos réalisations, et vos tarifs. Cela vous permettra de vous faire connaître
+              et de trouver des clients. Comme tout se trouve au même endroit, il est très facile de le mettre à jour en un seul clic.
             </p>
           </div>
         </div>
@@ -208,11 +198,11 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:ml-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">Stripe Integration</h3>
+            <h3 class="text-xl font-bold mb-4">Avis directements sur la plateforme</h3>
             <p class="mb-4">
-              SupaNuxt SaaS includes Stripe integration for subscription
-              payments including Subscription based support for multi pricing
-              and multiple plans.
+              Dès que vous avez terminé une commande, le client peut laisser un avis directement sur la plateforme. Cela permet
+              aux futurs clients de voir si vous êtes fiable, et de vous faire confiance. Vous pouvez également laisser un avis sur le
+              client, pour que les autres miniamakers sachent à quoi s'attendre.
             </p>
           </div>
         </div>
@@ -225,10 +215,14 @@
               class="w-full rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4" />
           </div>
           <div class="md:w-1/2">
-            <h3 class="text-xl font-bold mb-4">Style System</h3>
+            <h3 class="text-xl font-bold mb-4">En Bref</h3>
             <p class="mb-4">
-              SupaNuxt SaaS includes Tailwind integration for site styling
-              including a themable UI components with daisyUI
+              Minube est le site idéal pour les Youtubers qui cherchent à déléguer la réalisation de leurs vidéos à des miniamakers.
+              Grâce à des options de filtrage avancées, vous pouvez trouver le miniamaker qui correspond le mieux à vos besoins.
+              Vous pouvez également vous inscrire en tant que miniamaker, et commencer à travailler dès maintenant. Vous pouvez fixer
+              vos propres tarifs, et les clients intéressés pourront vous contacter directement. Minube vous offre la possibilité de
+              créer un portefolio unique, qui vous permettra de vous démarquer des autres miniamakers. Vous pourrez y mettre en avant
+              vos compétences, vos réalisations, et vos tarifs. Cela vous permettra de vous faire connaître et de trouver des clients.
             </p>
           </div>
         </div>

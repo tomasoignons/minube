@@ -11,8 +11,8 @@
 </template>
 <script setup lang="ts">
   useSeoMeta({
-    title: 'SupaNuxt SaaS',
-    ogTitle: 'SupaNuxt SaaS',
+    title: 'Minube',
+    ogTitle: 'Minube',
     ogUrl: 'https://nuxt3-saas-boilerplate.netlify.app/',
     ogType: 'website',
     // fbAppId: '1111222233334444', // you will need this if you authenticate with fb

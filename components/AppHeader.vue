@@ -30,7 +30,7 @@
         </ul>
       </div>
       <NuxtLink to="/" class="btn btn-ghost normal-case text-xl">
-        SupaNuxt SAAS
+        Minube
       </NuxtLink>
     </div>
     <div class="navbar-center hidden lg:flex">
@@ -39,13 +39,6 @@
         <li><NuxtLink to="/pricing">Pricing</NuxtLink></li>
         <li v-if="!user"><NuxtLink to="/signin">Sign In</NuxtLink></li>
         <li v-if="!user"><NuxtLink to="/signup">Start for free</NuxtLink></li>
-        <li v-if="!user">
-          <a
-            title="github"
-            href="https://github.com/JavascriptMick/supanuxt-saas">
-            <Icon name="mdi:github" />
-          </a>
-        </li>
       </ul>
     </div>
     <UserAccount v-if="user" :user="user" />

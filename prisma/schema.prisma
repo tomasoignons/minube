@@ -51,6 +51,7 @@ model Account {
   plan_name               String
   members                 Membership[]
   notes                   Note[]
+  offers                  Offer[]
   max_notes               Int         @default(100)
   stripe_subscription_id  String?
   stripe_customer_id      String?
@@ -83,4 +84,20 @@ model Note {
   note_text               String
 
   @@map("note")
+}
+
+model Offer {
+  id                     Int        @id @default(autoincrement())
+  account_id             Int
+  account                Account    @relation(fields: [account_id], references: [id])
+  title                  String
+  description            String
+  price                  Float
+  categories             String[]
+  image                  String
+  active                 Boolean    @default(true)
+  created_at             DateTime   @default(now())
+  updated_at             DateTime   @updatedAt
+
+  @@map("offer")
 }
